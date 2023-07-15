@@ -40,6 +40,10 @@ body{
     }
 }
 
+#navegacao i{
+    font-size: 130%;
+}
+
 #navegacao h2{
     margin: 5% 0;
     background-color: white;
@@ -96,6 +100,10 @@ body{
     margin-bottom: 1%;
 }
 
+.aboutMe i{
+    font-size: 170%;
+}
+
 .minhaJornada p{
     margin-right: 10%;
     text-align: justify;
@@ -111,6 +119,7 @@ body{
 .contInf{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 
@@ -176,7 +185,9 @@ body{
 
 .wpp{
     position: fixed;
-    padding: 0.4%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.4% 0.7%;
     background-color: green;
     border-radius: 50%;
     bottom: 0;
@@ -268,7 +279,13 @@ body{
     }
     
     .wpp{
-        width: 65px;
-        height: 65px;
+        display: flex;
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        padding: 4;
+        justify-content: center;
+        align-items: center;
+        
     }
 }
